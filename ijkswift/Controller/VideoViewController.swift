@@ -15,7 +15,7 @@ class VideoViewController: UIViewController {
         super.viewDidLoad()
         let playerView = VideoPlayerView.init(frame: self.view.bounds, strUrl: "http://221.228.226.5/14/z/w/y/y/zwyyobhyqvmwslabxyoaixvyubmekc/sh.yinyuetai.com/4599015ED06F94848EBF877EAAE13886.mp4")
         self.view.addSubview(playerView)
-        playerView.backgroundColor = UIColor.red
+        playerView.backgroundColor = UIColor.black
         playerView.snp.makeConstraints { (make) in
             make.edges.equalTo(self.view)
         }
