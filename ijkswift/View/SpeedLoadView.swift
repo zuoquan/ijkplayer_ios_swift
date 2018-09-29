@@ -55,8 +55,8 @@ class SpeedLoadView: UIView {
             make.bottom.equalTo(self).offset(-5)
             make.size.equalTo(CGSize(width: 60, height: 20))
         }
-        
         NotificationCenter.default.addObserver(self, selector: #selector(networkSpeedChanged(sender:)), name: NSNotification.Name(rawValue: DOWNLOAD_SPEED_NOTIFICATION), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(orientation(noti:)), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
     }
     
     @objc func networkSpeedChanged(sender: Notification) {
@@ -75,6 +75,12 @@ class SpeedLoadView: UIView {
     class func dismiss() {
         SpeedHelper.sharedInstance.stopListen()
         SpeedLoadView.sharedInstance.removeFromSuperview()
+    }
+    
+    @objc func orientation(noti: NSNotification) {
+        if SpeedLoadView.sharedInstance.superview != nil {
+            SpeedLoadView.sharedInstance.center = (SpeedLoadView.sharedInstance.superview?.center)!
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {

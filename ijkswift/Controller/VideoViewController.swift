@@ -13,7 +13,7 @@ class VideoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let playerView = VideoPlayerView.init(frame: self.view.bounds, strUrl: "http://221.228.226.5/14/z/w/y/y/zwyyobhyqvmwslabxyoaixvyubmekc/sh.yinyuetai.com/4599015ED06F94848EBF877EAAE13886.mp4")
+        let playerView = VideoPlayerView.init(frame: self.view.bounds, strUrl: "http://221.228.226.5/15/t/s/h/v/tshvhsxwkbjlipfohhamjkraxuknsc/sh.yinyuetai.com/88DC015DB03C829C2126EEBBB5A887CB.mp4")
         self.view.addSubview(playerView)
         playerView.backgroundColor = UIColor.black
         playerView.snp.makeConstraints { (make) in

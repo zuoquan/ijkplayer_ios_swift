@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6EBB634E7719735ECA60A36D /* Pods_ijkswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1924EECF2842DC50BD429BCC /* Pods_ijkswift.framework */; };
+		A937687B215F291B00917B55 /* UIApplication+rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937687A215F291B00917B55 /* UIApplication+rotation.swift */; };
+		A937687E215F2CD500917B55 /* UINavigationController+rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937687D215F2CD500917B55 /* UINavigationController+rotation.swift */; };
+		A9376880215F2E5200917B55 /* UITabBarController+rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937687F215F2E5200917B55 /* UITabBarController+rotation.swift */; };
 		A93B6B742153B9CD00E3523A /* GestureControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B6B732153B9CC00E3523A /* GestureControlModel.swift */; };
 		A93B6B76215A2BFE00E3523A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B6B75215A2BFE00E3523A /* VideoPlayerView.swift */; };
 		A93B6B78215B225700E3523A /* ForwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B6B77215B225700E3523A /* ForwardView.swift */; };
@@ -67,6 +70,9 @@
 /* Begin PBXFileReference section */
 		1924EECF2842DC50BD429BCC /* Pods_ijkswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijkswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3811F1CBA3E41392A539FF89 /* Pods-ijkswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijkswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ijkswift/Pods-ijkswift.release.xcconfig"; sourceTree = "<group>"; };
+		A937687A215F291B00917B55 /* UIApplication+rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+rotation.swift"; sourceTree = "<group>"; };
+		A937687D215F2CD500917B55 /* UINavigationController+rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+rotation.swift"; sourceTree = "<group>"; };
+		A937687F215F2E5200917B55 /* UITabBarController+rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+rotation.swift"; sourceTree = "<group>"; };
 		A93B6B732153B9CC00E3523A /* GestureControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureControlModel.swift; sourceTree = "<group>"; };
 		A93B6B75215A2BFE00E3523A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		A93B6B77215B225700E3523A /* ForwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardView.swift; sourceTree = "<group>"; };
@@ -173,6 +179,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A937687C215F292D00917B55 /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				A937687A215F291B00917B55 /* UIApplication+rotation.swift */,
+				A937687D215F2CD500917B55 /* UINavigationController+rotation.swift */,
+				A937687F215F2E5200917B55 /* UITabBarController+rotation.swift */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
 		A952D79F214FA0F9003F14E5 = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +273,7 @@
 		A9B62875215B66DB00933494 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				A937687C215F292D00917B55 /* Rotation */,
 				A9B62876215B670200933494 /* PublicConfig.swift */,
 				A9B62878215B6BA300933494 /* SpeedHelper.swift */,
 			);
@@ -444,9 +461,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9B62874215B65FD00933494 /* SpeedLoadView.swift in Sources */,
+				A9376880215F2E5200917B55 /* UITabBarController+rotation.swift in Sources */,
 				A952D7FA2152238E003F14E5 /* GestureModel.swift in Sources */,
 				A952D7AE214FA0FA003F14E5 /* VideoViewController.swift in Sources */,
 				A952D7F62150F6C7003F14E5 /* VideoPlayerControl.swift in Sources */,
+				A937687E215F2CD500917B55 /* UINavigationController+rotation.swift in Sources */,
+				A937687B215F291B00917B55 /* UIApplication+rotation.swift in Sources */,
 				A93B6B742153B9CD00E3523A /* GestureControlModel.swift in Sources */,
 				A93B6B78215B225700E3523A /* ForwardView.swift in Sources */,
 				A952D7AC214FA0FA003F14E5 /* AppDelegate.swift in Sources */,
