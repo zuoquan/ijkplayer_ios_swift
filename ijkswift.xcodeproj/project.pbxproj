@@ -11,6 +11,7 @@
 		A937687B215F291B00917B55 /* UIApplication+rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937687A215F291B00917B55 /* UIApplication+rotation.swift */; };
 		A937687E215F2CD500917B55 /* UINavigationController+rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937687D215F2CD500917B55 /* UINavigationController+rotation.swift */; };
 		A9376880215F2E5200917B55 /* UITabBarController+rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A937687F215F2E5200917B55 /* UITabBarController+rotation.swift */; };
+		A9376882215F594A00917B55 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A9376881215F594A00917B55 /* README.md */; };
 		A93B6B742153B9CD00E3523A /* GestureControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B6B732153B9CC00E3523A /* GestureControlModel.swift */; };
 		A93B6B76215A2BFE00E3523A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B6B75215A2BFE00E3523A /* VideoPlayerView.swift */; };
 		A93B6B78215B225700E3523A /* ForwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B6B77215B225700E3523A /* ForwardView.swift */; };
@@ -73,6 +74,7 @@
 		A937687A215F291B00917B55 /* UIApplication+rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+rotation.swift"; sourceTree = "<group>"; };
 		A937687D215F2CD500917B55 /* UINavigationController+rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+rotation.swift"; sourceTree = "<group>"; };
 		A937687F215F2E5200917B55 /* UITabBarController+rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+rotation.swift"; sourceTree = "<group>"; };
+		A9376881215F594A00917B55 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A93B6B732153B9CC00E3523A /* GestureControlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureControlModel.swift; sourceTree = "<group>"; };
 		A93B6B75215A2BFE00E3523A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		A93B6B77215B225700E3523A /* ForwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardView.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				A952D7B7214FA0FA003F14E5 /* Info.plist */,
+				A9376881215F594A00917B55 /* README.md */,
 				A952D7F42150F140003F14E5 /* Main */,
 				A9B62875215B66DB00933494 /* Helper */,
 				A952D7F32150EAC4003F14E5 /* Controller */,
@@ -394,6 +397,7 @@
 				A9B628AD215B946F00933494 /* loading7.png in Resources */,
 				A9B628AB215B946F00933494 /* loading3.png in Resources */,
 				A9B628AF215B946F00933494 /* loading18.png in Resources */,
+				A9376882215F594A00917B55 /* README.md in Resources */,
 				A9B62896215B946F00933494 /* loading8.png in Resources */,
 				A9B62898215B946F00933494 /* loading11.png in Resources */,
 				A9B628A6215B946F00933494 /* loading12.png in Resources */,
